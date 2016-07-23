@@ -1,0 +1,16 @@
+using System;
+				
+public class Program
+{
+	public static void Main()
+	{
+		int a1,a2,t;
+		Console.WriteLine("Escriba un numero");
+		a1 = int.Parse(Console.ReadLine());
+		Console.WriteLine("Escriba un segundo numero; ");
+		a2 = int.Parse(Console.ReadLine());
+		t = a1/a2;
+		Console.WriteLine("el resultado es: "+ t);
+		
+	}
+}

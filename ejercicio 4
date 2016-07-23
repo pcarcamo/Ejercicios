@@ -1,0 +1,17 @@
+using System;
+				
+public class Program
+{
+	public static void Main()
+	{
+		int a,b,c,d,e,d,g,t1,t2,t3,t4;
+		Console.WriteLine("Ejercicio1");
+		Console.WriteLine("Ingrese el primer Numero");
+		a = int.Parse(Console.ReadLine());
+		Console.WriteLine("Escriba un segundo numero; ");
+		b = int.Parse(Console.ReadLine());
+		t1 = -(a+b);
+		Console.WriteLine("Escriba un tercer numero; ");
+		c = int.Parse(Console.ReadLine());
+		t1 = -a+b * c;
+		Console.WriteLine("el resultado es: "+ t1);

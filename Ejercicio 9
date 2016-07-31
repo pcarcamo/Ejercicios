@@ -1,0 +1,27 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		float prinumero;
+ 		float segnumero;
+		float ternumero;
+		float cuarnumero;
+        float promedio;
+
+		Console.WriteLine("Introduce el primer número");
+		prinumero = Convert.ToSingle(Console.ReadLine());
+		Console.WriteLine("Introduce el segundo número");
+		segnumero = Convert.ToSingle(Console.ReadLine());
+		Console.WriteLine("Introduce el tercer número");
+		ternumero = Convert.ToSingle(Console.ReadLine());
+		Console.WriteLine("Introduce el cuarto número");
+		cuarnumero = Convert.ToSingle(Console.ReadLine());
+		promedio = (prinumero + segnumero + ternumero + cuarnumero)/4;
+		Console.WriteLine("El promedio de {0}  {1}  {2} {3} es:   {4}", 
+		prinumero, segnumero, ternumero, cuarnumero, promedio);
+
+
+			}
+}

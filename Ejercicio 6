@@ -1,0 +1,24 @@
+using System;
+
+public class program
+{
+	public static void Main() 
+	{
+	float prinumero; 
+	float segnumero;
+	float ternumero;
+	float resultadoM;
+		Console.WriteLine("Ingrese el primer número");
+		prinumero = Convert.ToSingle(Console.ReadLine());
+		Console.WriteLine("Ingrese el segundo número");
+		
+		segnumero = Convert.ToSingle(Console.ReadLine());
+		
+		Console.WriteLine("Ingrese el tercer número");
+		
+		ternumero = Convert.ToSingle(Console.ReadLine());
+		resultadoM = prinumero*segnumero*ternumero;
+		Console.WriteLine("El resultado es: {0} x {1} x {2} = {3}" ,prinumero, segnumero, ternumero, resultadoM);
+		
+	}
+}

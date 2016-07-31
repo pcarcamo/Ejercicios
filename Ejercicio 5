@@ -1,0 +1,19 @@
+using System;
+
+public class program
+{
+	public static void Main() 
+	{
+		int a,b,c;
+		Console.WriteLine("Ingresa el valor de A "); 
+		a = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine("Ingrese el valor de B");
+		b = Convert.ToInt32(Console.ReadLine());
+		c=a;
+		a=b;
+		b=c;
+		Console.WriteLine("El valor de A es: " +a+ "  y el valor de B es:" +b);
+		Console.WriteLine();
+	}
+}
+						  

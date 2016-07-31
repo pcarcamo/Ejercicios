@@ -1,0 +1,36 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		float prinumero;
+		float segnumero;
+		float ternumero;
+		float operador;
+		float resultado1;
+		
+
+Console.WriteLine("Introduce el primer número");
+prinumero = Convert.ToSingle(Console.ReadLine());
+Console.WriteLine("Introduce el segundo número");
+segnumero = Convert.ToSingle(Console.ReadLine());
+		Console.WriteLine("Introduce el tercer número");
+		
+ternumero = Convert.ToSingle(Console.ReadLine());
+		operador = (prinumero + ternumero)*segnumero;
+		resultado1 = (prinumero + prinumero)*segnumero*ternumero;
+		
+
+Console.WriteLine("Resultado de números especificados  de {0}  {1}  {2} (x+y)*z  es:   {3} ", 
+prinumero, segnumero, ternumero,  operador);
+
+		
+		Console.WriteLine("Resultado de números especificados  de {0}  {1}  {2} (x+x)*y*z  es:   {3} ", 
+	prinumero, segnumero, ternumero,  resultado1);
+		
+
+
+
+			}
+}

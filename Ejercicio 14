@@ -1,0 +1,30 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+		int valor;
+	Console.WriteLine("Ingrese un número"); 
+		valor = Int32.Parse(Console.ReadLine());
+		
+	    
+		
+		Console.WriteLine("Fahrenheit:"+ ConvertTemp.ConvertCelsiusToFahrenheit(valor));
+		Console.WriteLine("Kelvin:"+ ConvertTemp.ConvertCelsiusToKelvin(valor));
+      Console.ReadLine();
+    }
+
+    static class ConvertTemp
+    {
+	public static double ConvertCelsiusToFahrenheit(double c)
+	{
+	    return ((9.0 / 5.0) * c) + 32;
+	}
+
+	public static double ConvertCelsiusToKelvin(double c)
+	{
+	    return (c+273.15);
+	}
+    }
+}

@@ -1,0 +1,25 @@
+using System;
+
+public class program
+{
+	public static void Main() 
+	{
+	 int n;
+		int j ;
+		Console.WriteLine("Ingrese el número de la tabla de multiblicar"); 
+		n = Int32.Parse(Console.ReadLine());
+		int res;
+           {
+		Console.WriteLine("     Tabla del " + n);
+		for ( j = 1; j <= 10; j++)
+                {
+      	res = j * n;
+     	Console.WriteLine(+j + " x " + n + " = " + res);
+                }
+            }
+      Console.ReadLine();
+        }
+}
+
+
+					
